@@ -58,7 +58,6 @@ namespace RockPaperScissors.Tests
             Assert.Equal(Result.Player2, result);
         }
 
-
         [Fact]
         public void RockDrawsWithARock()
         {
@@ -68,7 +67,6 @@ namespace RockPaperScissors.Tests
             Assert.Equal(Result.Draw, result);
         }
 
-
         [Fact]
         public void ScissorsDrawsWithAScissor()
         {
@@ -77,7 +75,6 @@ namespace RockPaperScissors.Tests
 
             Assert.Equal(Result.Draw, result);
         }
-
 
         [Fact]
         public void PaperDrawsWithAPaper()
