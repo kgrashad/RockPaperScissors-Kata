@@ -4,7 +4,6 @@
     {
         Rock,
         Paper,
-        Scissors,
-        Draw
+        Scissors
     }
 }
